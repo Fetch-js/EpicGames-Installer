@@ -1,4 +1,4 @@
-# Epic Games Launcher Setup
+# Epic Games Launcher Setup by @MonoMaxiz
 
 Desktop installer UI built with Tauri 2, vanilla JavaScript and a native C++20 copy engine.
 
