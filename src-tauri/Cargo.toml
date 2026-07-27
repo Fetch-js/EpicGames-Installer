@@ -1,0 +1,23 @@
+[package]
+name = "epic-games-installer"
+version = "1.0.0"
+description = "Epic Games Launcher installer"
+edition = "2021"
+
+[lib]
+name = "epic_games_installer_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+cc = "1.2"
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+fs2 = "0.4"
+reqwest = { version = "0.12", default-features = false, features = ["rustls-tls", "stream"] }
+serde = { version = "1", features = ["derive"] }
+tauri = { version = "2", features = [] }
+tauri-plugin-dialog = "2"
+tempfile = "3"
+tokio = { version = "1", features = ["fs", "io-util"] }
+zip = { version = "2.4", default-features = false, features = ["deflate"] }
