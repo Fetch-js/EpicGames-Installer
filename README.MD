@@ -1,4 +1,4 @@
-# Epic Games Launcher Инсталлер от @MonoMaxiz
+# Epic Games Launcher Инсталлер от [Specer](https://github.com/MonoMaxiz)
 ### <center>[English](README_EN.MD)</center>
 
 Пользовательский интерфейс установщика для настольных компьютеров, созданный с использованием Tauri 2, «чистого» JavaScript и нативного механизма копирования на C++20.
